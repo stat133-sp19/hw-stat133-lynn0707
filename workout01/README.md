@@ -1,0 +1,1 @@
+The purpose of this homework is to create a visualizing shot data of NBA players from the Golden State Warriors. Then, a report is wrote depending on the summaries and visualizations. 
