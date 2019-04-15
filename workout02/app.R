@@ -60,7 +60,7 @@ ui <- fluidPage(
       h4("Timelines"),
       plotOutput("Timeline"),
       h4("Balances"),
-      tableOutput("Balances")
+      verbatimTextOutput("Balances")
   )
 
 
@@ -124,7 +124,7 @@ server <- function(input, output) {
   })
  
 
-  output$Balances<- renderTable({
+  output$Balances<- renderPrint({
     amount <- input$amount
     contrib<-input$annual
     growth <- reactive({
