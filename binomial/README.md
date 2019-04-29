@@ -37,10 +37,10 @@ Install the development version from GitHub via the package
 #install.packages("devtools") 
 
 # install "binomial" (without vignettes)
-devtools::install_github("lynn9077/binomial")
+devtools::install_github("stat133-sp19/hw-stat133-lynn0707/binomial")
 
 # install "cointoss" (with vignettes)
-devtools::install_github("lynn9077/binomial", build_vignettes = TRUE)
+devtools::install_github("stat133-sp19/hw-stat133-lynn0707/binomial", build_vignettes = TRUE)
 ```
 
 Usage

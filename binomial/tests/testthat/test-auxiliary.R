@@ -6,6 +6,8 @@ test_that("aux_mean returns the correct value",{
   expect_equal(aux_mean(30,0.5),15)
 })
 
+
+
 test_that("aux_variance returns the correct value",{
   expect_equal(aux_variance(10,0.3),2.1)
   expect_equal(aux_variance(20,0.1),1.8)
