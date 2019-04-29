@@ -124,7 +124,7 @@ Functions of measures
 --------
 These functions contains the statistics of the binomial distrbution as mean, variance, mode, skewness, kurtosis.
 
-```{r}
+```r
 bin_mean(10, 0.3)
 #> [1] 3
 bin_variance(10, 0.3)
