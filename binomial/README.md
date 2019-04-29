@@ -71,6 +71,7 @@ bin_distribution(n = 5, prob = 0.5)
 # plotting binomial probability distribution
 dis1 <- bin_distribution(n = 5, p = 0.5) 
 plot(dis1)
+
 ![](graph/distri.png)
 
 # binomial cumulative distribution
@@ -87,6 +88,7 @@ bin_cumulative(n = 5, p = 0.5)
 # plotting binomial cumulative distribution
 dis2 <- bin_cumulative(n = 5, p = 0.5) 
 plot(dis2)
+
 ![](graph/cumu.png)
 
 # binomial random variable object
